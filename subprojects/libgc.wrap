@@ -1,0 +1,4 @@
+[wrap-git]
+directory = libgc.git
+url = git@github.com:frefolli/libgc.git
+revision = master
