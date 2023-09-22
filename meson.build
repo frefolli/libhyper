@@ -19,7 +19,8 @@ libhyper = library('libhyper', [
     'src/libhyper/hypermap.cc',
     'src/libhyper/hyperint.cc',
     'src/libhyper/hyperbool.cc',
-    'src/libhyper/hyperstring.cc'
+    'src/libhyper/hyperstring.cc',
+    'src/libhyper/utils.cc'
   ], include_directories: include,
   dependencies: [libutils_dep])
 
